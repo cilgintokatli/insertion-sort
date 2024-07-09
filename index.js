@@ -1,4 +1,4 @@
-function selectionSort(arr) {
+function insertionSort(arr) {
   // array uzunluğunu buluyoruz
   const arrLength = arr.length;
 
@@ -29,4 +29,4 @@ function selectionSort(arr) {
 
 const array = [7, 3, 5, 8, 2, 9, 4, 15, 6];
 
-console.log(selectionSort(array));
+console.log(insertionSort(array));
